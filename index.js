@@ -1,1 +1,4 @@
-console.log(111);
+import { AppRegistry } from 'react-native';
+import App from './App';
+
+AppRegistry.registerComponent('ExampleProject', () => App);
